@@ -2,6 +2,7 @@ class TasksController < ApplicationController
   def index
     # テンプレート変数、Tasksテーブルからすべてデータを取得したものを
     # 変数に追加する。railsがsqlを発行している
+    # gitにcommitするよ
     @tasks = Task.all
   end
   
